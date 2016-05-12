@@ -27,14 +27,6 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.0 (/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5)" project-jdk-type="Python SDK" />
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings sdk-home="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" working-directory="$PROJECT_DIR$/../house_to_buy">
-        <option name="mySdkHome" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
-        <option name="myWorkingDirectory" value="$PROJECT_DIR$/../house_to_buy" />
-      </console-settings>
-    </option>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
