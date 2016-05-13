@@ -4,6 +4,7 @@ import pymysql
 from datetime import date,datetime
 import time
 import re
+import pycurl
 
 stock_list = [
     'SZ000543',    #皖能电力
@@ -30,7 +31,7 @@ stock_list = [
 ]
 
 headers = {
-    'Cookie':'s=30e012lulu; xq_a_token=4c857c2073766ab3b6e6c26c583bfc2be49b59dd; xqat=4c857c2073766ab3b6e6c26c583bfc2be49b59dd; xq_r_token=982d1df16ab28e980d963c239a1550963c2004c2; xq_is_login=1; u=3123842048; xq_token_expire=Mon%20May%2023%202016%2020%3A34%3A05%20GMT%2B0800%20(CST); bid=b605182f86b7f2f48872188e1be4686d_ink9v8vs; snbim_minify=true; Hm_lvt_1db88642e346389874251b5a1eded6e3=1462179811,1462503687,1462775091,1462861925; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1463110841; __utmt=1; __utma=1.1403218528.1461846852.1463024491.1463110842.17; __utmb=1.1.10.1463110842; __utmc=1; __utmz=1.1461846852.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+    'Cookie':'s=1wp21218b9; xq_a_token=b6eecee1abad844d30250c0af58bfa36b2851f1d; xq_r_token=8bd931f3143a3c125db60e290232340b0a371472; Hm_lvt_1db88642e346389874251b5a1eded6e3=1463114665; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1463114673; __utmt=1; __utma=1.384338427.1463114673.1463114673.1463114673.1; __utmb=1.1.10.1463114673; __utmc=1; __utmz=1.1463114673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
 }
 

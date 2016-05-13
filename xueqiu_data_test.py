@@ -4,15 +4,29 @@ import pymysql
 from datetime import date,datetime
 import time
 import re
+import pycurl
+from io import BytesIO
 
 stock_list = [
     'SZ000543'    #皖能电力
 ]
 
+'''
+headers = BytesIO()
+c = pycurl.Curl()
+c.setopt(c.URL, 'https://www.xueqiu.com')
+c.setopt(c.HEADER, 1)
+c.setopt(c.NOBODY, 1) # header only, no body
+c.setopt(c.HEADERFUNCTION, headers.write)
+c.perform()
+print('------------',headers.getvalue())
+'''
+
 headers = {
-    'Cookie':'s=30e012lulu; xq_a_token=4c857c2073766ab3b6e6c26c583bfc2be49b59dd; xqat=4c857c2073766ab3b6e6c26c583bfc2be49b59dd; xq_r_token=982d1df16ab28e980d963c239a1550963c2004c2; xq_is_login=1; u=3123842048; xq_token_expire=Mon%20May%2023%202016%2020%3A34%3A05%20GMT%2B0800%20(CST); bid=b605182f86b7f2f48872188e1be4686d_ink9v8vs; snbim_minify=true; Hm_lvt_1db88642e346389874251b5a1eded6e3=1462179811,1462503687,1462775091,1462861925; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1463110841; __utmt=1; __utma=1.1403218528.1461846852.1463024491.1463110842.17; __utmb=1.1.10.1463110842; __utmc=1; __utmz=1.1461846852.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+    'Cookie':'s=1wp21218b9; xq_a_token=b6eecee1abad844d30250c0af58bfa36b2851f1d; xq_r_token=8bd931f3143a3c125db60e290232340b0a371472; Hm_lvt_1db88642e346389874251b5a1eded6e3=1463114665; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1463114673; __utmt=1; __utma=1.384338427.1463114673.1463114673.1463114673.1; __utmb=1.1.10.1463114673; __utmc=1; __utmz=1.1463114673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
 }
+
 
 config = {
     'host':'127.0.0.1',
@@ -44,7 +58,12 @@ def get_stock_amplitude(stock_list):
     for i in range(1,len(stock_list)+1):
         url = url_base + stock_list[i-1]
         print('-------------------------',url)
-        web_data = requests.get(url,headers=headers)
+        #login = requests.session()
+        #login_data = {'email': 'sirius_ziham@hotmail.com', 'password': '19860112'}
+        #login.post('https://www.xueqiu.com',login_data)
+        web_data = requests.get(url)
+        #header = web_data.request.headers
+        #print(header)
         soup = BeautifulSoup(web_data.text,'lxml')
         print(soup)
         stock_quantity = soup.select('table.topTable > tr:nth-of-type(2) > td:nth-of-type(4)')
