@@ -22,6 +22,11 @@ c.perform()
 print('------------',headers.getvalue())
 '''
 
+present_time = time.time()
+#print('-----------------',present_time)
+present_time = round(present_time)
+#print('-----------------',str(present_time))
+
 headers = {
     'Cookie':'s=1wp21218b9; xq_a_token=b6eecee1abad844d30250c0af58bfa36b2851f1d; xq_r_token=8bd931f3143a3c125db60e290232340b0a371472; Hm_lvt_1db88642e346389874251b5a1eded6e3=1463114665; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1463114673; __utmt=1; __utma=1.384338427.1463114673.1463114673.1463114673.1; __utmb=1.1.10.1463114673; __utmc=1; __utmz=1.1463114673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
