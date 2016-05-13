@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57e383db-b2cb-45c8-8b44-497fc8f0a099" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xueqiu_data_test.py" afterPath="$PROJECT_DIR$/xueqiu_data_test.py" />
     </list>
     <ignored path="stock_data.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -373,7 +372,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463115159156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update headers">
+      <created>1463119766914</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1463119766914</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
