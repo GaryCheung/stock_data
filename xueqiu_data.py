@@ -76,6 +76,8 @@ def get_stock_amplitude(stock_list):
             quantities = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',quantity.get_text())
             amplitudes = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',amplitude.get_text())
             names = name.get_text()
+            if quantities == []:
+                quantities = 0
             print(quantities,'-------------',amplitudes,'-----------------',names)
             connection = pymysql.connect(**config)
             try:
@@ -89,5 +91,5 @@ def get_stock_amplitude(stock_list):
                 connection.close()
     time.sleep(1)
 
-# delete_current_data(config)
+#delete_current_data(config)
 get_stock_amplitude(stock_list)
