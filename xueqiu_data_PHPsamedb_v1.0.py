@@ -41,7 +41,7 @@ config = {
     'user':'root',
     'password':'root',
     'db':'stock',
-    'charset':'utf8'
+    'charset':'utf8',
     'unix_socket':'/Applications/MAMP/tmp/mysql/mysql.sock'
 }
 
