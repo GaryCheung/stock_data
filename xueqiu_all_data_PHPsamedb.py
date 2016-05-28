@@ -2983,16 +2983,15 @@ config = {
     'unix_socket':'/Applications/MAMP/tmp/mysql/mysql.sock'
 }
 
-ISOTIMEFORMAT='%Y-%m-%d %X'
-present_date = time.strftime(ISOTIMEFORMAT,time.localtime())
+present_date = datetime.now().date()
 
-def delete_current_data(config):
+def delete_current_data(config,source):
     connection = pymysql.connect(**config)
     try:
         with connection.cursor() as cursor:
             # 执行sql语句，插入记录
-            sql = "DELETE FROM stock_data where date = '%s'" %(present_date)
-            cursor.execute(sql)
+            sql = "DELETE FROM stock_data where date = %s and source = %s"
+            cursor.execute(sql,(present_date,source))
             # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
         connection.commit()
     finally:
@@ -3017,18 +3016,21 @@ def get_stock_amplitude(stock_list):
             names = name.get_text()
             if quantities == []:
                 quantities = 0
+            if amplitudes == []:
+                amplitudes = 0
             print(quantities,'-------------',amplitudes,'-----------------',names)
             connection = pymysql.connect(**config)
             try:
                 with connection.cursor() as cursor:
                     # 执行sql语句，插入记录
-                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name) VALUES (%s, %s, %s, %s)'
-                    cursor.execute(sql, (present_date, quantities, amplitudes, names))
+                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name,source) VALUES (%s, %s, %s, %s,%s)'
+                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source))
                     # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
                 connection.commit()
             finally:
                 connection.close()
     time.sleep(1)
 
-#delete_current_data(config)
-get_stock_amplitude(stock_list)
+source = 'xueqiu'
+delete_current_data(config,source)
+get_stock_amplitude(stock_list,source)

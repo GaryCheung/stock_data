@@ -27,11 +27,28 @@ present_time = time.time()
 present_time = round(present_time)
 #print('-----------------',str(present_time))
 
-headers = {
-    'Cookie':'s=1wp21218b9; xq_a_token=b6eecee1abad844d30250c0af58bfa36b2851f1d; xq_r_token=8bd931f3143a3c125db60e290232340b0a371472; Hm_lvt_1db88642e346389874251b5a1eded6e3=1463114665; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1463114673; __utmt=1; __utma=1.384338427.1463114673.1463114673.1463114673.1; __utmb=1.1.10.1463114673; __utmc=1; __utmz=1.1463114673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
-    'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+headers1 = {
+    'Cookie':'s=1d4k164ccu; xq_a_token=db8683446fe2a5e342276e182a2d645557dd9ad8; xq_r_token=2e982c242f4c05dbd9e1f356c30a24d1a5bf297b; Hm_lvt_1db88642e346389874251b5a1eded6e3=1464341283; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1464341302; __utmt=1; __utma=1.1909343692.1464341303.1464341303.1464341303.1; __utmb=1.1.10.1464341303; __utmc=1; __utmz=1.1464341303.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+    'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+    'Referer':'https://xueqiu.com/k?q=%E7%9A%96%E8%83%BD%E7%94%B5%E5%8A%9B',
+    'Host':'xueqiu.com'
 }
 
+headers_mac = {
+    'Cookie':'s=1do91buzvf; xq_a_token=db8683446fe2a5e342276e182a2d645557dd9ad8; xq_r_token=2e982c242f4c05dbd9e1f356c30a24d1a5bf297b; __utmt=1; Hm_lvt_1db88642e346389874251b5a1eded6e3=1464354158; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1464354170; __utma=1.1202071191.1464354164.1464354164.1464354164.1; __utmb=1.2.10.1464354164; __utmc=1; __utmz=1.1464354164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+    'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+}
+
+headers_firefox = {
+    'Cookie':'s=1acl1b37ul; __utma=1.491234239.1459080101.1463114086.1464352387.3; __utmz=1.1459080101.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); Hm_lvt_1db88642e346389874251b5a1eded6e3=1463114067,1464352375; xq_a_token=db8683446fe2a5e342276e182a2d645557dd9ad8; xq_r_token=2e982c242f4c05dbd9e1f356c30a24d1a5bf297b; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1464352385; __utmb=1.1.10.1464352387; __utmc=1; __utmt=1',
+    'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:45.0) Gecko/20100101 Firefox/45.0',
+    'Host':'xueqiu.com',
+    'Connection':'keep-alive'
+}
+
+data_mac = {
+    'P3P':'CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"'
+}
 
 config = {
     'host':'127.0.0.1',
@@ -42,8 +59,7 @@ config = {
     'charset':'utf8'
 }
 
-ISOTIMEFORMAT='%Y-%m-%d %X'
-present_date = time.strftime(ISOTIMEFORMAT,time.localtime())
+present_date = datetime.now().date()
 
 def delete_current_data(config):
     connection = pymysql.connect(**config)

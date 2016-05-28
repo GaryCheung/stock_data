@@ -61,7 +61,7 @@ def delete_current_data(config):
         connection.close()
     print('-----------------------delete success!----------------','\n')
 
-def get_stock_amplitude(stock_list):
+def get_stock_amplitude(stock_list,source):
     url_base = 'https://xueqiu.com/S/'
     for i in range(1,len(stock_list)+1):
         url = url_base + stock_list[i-1]
@@ -84,13 +84,14 @@ def get_stock_amplitude(stock_list):
             try:
                 with connection.cursor() as cursor:
                     # 执行sql语句，插入记录
-                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name) VALUES (%s, %s, %s, %s)'
-                    cursor.execute(sql, (present_date, quantities, amplitudes, names))
+                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source) VALUES (%s, %s, %s, %s, %s)'
+                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source))
                     # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
                 connection.commit()
             finally:
                 connection.close()
     time.sleep(1)
 
-#delete_current_data(config)
-get_stock_amplitude(stock_list)
+source = 'xueqiu'
+delete_current_data(config)
+get_stock_amplitude(stock_list,source)
