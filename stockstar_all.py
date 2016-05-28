@@ -6009,11 +6009,17 @@ print(urllen)
 i = 0
 stock_list_slice = []
 step = 50
+
+#point = 1000
+#print(stock_list_all[point])
+#stock_list_all = stock_list_all[point:]
+
 while (i*step <= urllen):
     stock_list_slice = stock_list_all[i*step:i*step+step]
     i = i+1
     print('NO.',i,'-------------------','len',len(stock_list_slice),stock_list_slice)
     get_stock_data(stock_list_slice, source)
+
 #get_stock_data(stock_list_all,source)
 
 #get_stock_data(stock_list_sh,source)
