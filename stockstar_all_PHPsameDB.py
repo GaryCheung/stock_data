@@ -8966,6 +8966,7 @@ def get_stock_data(stock_list, source, present_location):
             finally:
                 connection.close()
     time.sleep(1)
+    return present_location
 
 source = 'stockstar'
 delete_current_data(config,source)
@@ -8985,6 +8986,7 @@ while (i*step <= urllen):
     i = i+1
     print('NO.',i,'-------------------','len',len(stock_list_slice),stock_list_slice)
     present_location = get_stock_data(stock_list_slice, source, present_location)
+    # print('============',present_location)
 
 #get_stock_data(stock_list_all,source)
 

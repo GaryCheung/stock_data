@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e383db-b2cb-45c8-8b44-497fc8f0a099" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stockstar_all_continue.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockstar_all.py" afterPath="$PROJECT_DIR$/stockstar_all.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" afterPath="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
     </list>
     <ignored path="stock_data.iws" />
@@ -30,8 +27,20 @@
       <file leaf-file-name="stockstar_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stockstar_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.555555">
+            <state vertical-scroll-proportion="-24.666666">
               <caret line="6018" column="40" selection-start-line="6018" selection-start-column="40" selection-end-line="6018" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockstar_all_PHPsameDB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65909094">
+              <caret line="8988" column="6" selection-start-line="8988" selection-start-column="6" selection-end-line="8988" selection-end-column="6" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -51,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stockstar_all_PHPsameDB_continue.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stockstar_all_PHPsameDB_continue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8863636">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8991" column="3" selection-start-line="8991" selection-start-column="3" selection-end-line="8991" selection-end-column="3" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -68,18 +77,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="66" column="154" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="154" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockstar_all_PHPsameDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8978" column="13" selection-start-line="8978" selection-start-column="13" selection-end-line="8978" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -157,10 +154,10 @@
         <option value="$PROJECT_DIR$/xueqiu_all_data_PHPsamedb.py" />
         <option value="$PROJECT_DIR$/stockstar_test.py" />
         <option value="$PROJECT_DIR$/stockstar_data_by_js.py" />
-        <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
         <option value="$PROJECT_DIR$/stockstar_all.py" />
         <option value="$PROJECT_DIR$/stockstar_all_continue.py" />
         <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py" />
+        <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
       </list>
     </option>
   </component>
@@ -358,7 +355,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.stockstar_all">
+  <component name="RunManager" selected="Python.stockstar_all_PHPsameDB">
     <configuration default="false" name="eastmoney_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -575,8 +572,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stockstar_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stockstar_all_PHPsameDB" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stockstar_all_PHPsameDB" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stockstar_all" />
         <item index="2" class="java.lang.String" itemvalue="Python.stockstar_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.xueqiu_data_PHPsamedb_v1.0" />
         <item index="4" class="java.lang.String" itemvalue="Python.eastmoney_test" />
@@ -678,7 +675,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464427627737</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1464432525433</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1464432525433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -691,7 +694,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33012047" sideWeight="0.50528544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4918957" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33012047" sideWeight="0.4947146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33012047" sideWeight="0.4947146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49753347" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -947,16 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8978" column="13" selection-start-line="8978" selection-start-column="13" selection-end-line="8978" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stockstar_all_continue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -967,9 +960,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8991" column="3" selection-start-line="8991" selection-start-column="3" selection-end-line="8991" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stockstar_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.555555">
+        <state vertical-scroll-proportion="-24.666666">
           <caret line="6018" column="40" selection-start-line="6018" selection-start-column="40" selection-end-line="6018" selection-end-column="40" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -977,10 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
+    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8863636">
-          <caret line="8991" column="3" selection-start-line="8991" selection-start-column="3" selection-end-line="8991" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.65909094">
+          <caret line="8988" column="6" selection-start-line="8988" selection-start-column="6" selection-end-line="8988" selection-end-column="6" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
