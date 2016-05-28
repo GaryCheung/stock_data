@@ -6010,10 +6010,10 @@ i = 0
 stock_list_slice = []
 step = 50
 while (i*step <= urllen):
-    stock_list_slice = stock_list_all[i*step:i*step+step-1]
+    stock_list_slice = stock_list_all[i*step:i*step+step]
     i = i+1
-    print('NO.',i,'-------------------',stock_list_slice)
-    get_stock_data(stock_list_all, source)
+    print('NO.',i,'-------------------','len',len(stock_list_slice),stock_list_slice)
+    get_stock_data(stock_list_slice, source)
 #get_stock_data(stock_list_all,source)
 
 #get_stock_data(stock_list_sh,source)
