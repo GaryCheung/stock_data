@@ -2994,7 +2994,7 @@ def delete_current_data(config,source):
 
 
 def get_stock_data(stock_list, source):
-    url_base = 'http://stock.quote.stockstar.com//'
+    url_base = 'http://stock.quote.stockstar.com/'
     for i in range(1,len(stock_list)+1):
         url = url_base + stock_list[i-1] + '.shtml'
         print(len(stock_list),'------------',i,'---------------',stock_list[i-1],'-------------------URL',url)

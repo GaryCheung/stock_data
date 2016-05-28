@@ -47,13 +47,13 @@ config = {
 ISOTIMEFORMAT='%Y-%m-%d %X'
 present_date = time.strftime(ISOTIMEFORMAT,time.localtime())
 
-def delete_current_data(config,source):
+def delete_current_data(config):
     connection = pymysql.connect(**config)
     try:
         with connection.cursor() as cursor:
             # 执行sql语句，插入记录
-            sql = "DELETE FROM stock_data where date = %s and source = %s"
-            cursor.execute(sql,(present_date,source))
+            sql = "DELETE FROM stock_data where date = '%s'" %(present_date)
+            cursor.execute(sql)
             # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
         connection.commit()
     finally:
@@ -68,7 +68,7 @@ def get_stock_amplitude(stock_list):
         web_data = requests.get(url,headers=headers)
         soup = BeautifulSoup(web_data.text,'lxml')
         #print(soup)
-        stock_quantity = soup.select('table.topTable > tr.seperateTop > td:nth-of-type(4)')
+        stock_quantity = soup.select('table.topTable > tr:nth-of-type(2) > td:nth-of-type(4)')
         stock_amplitude = soup.select('table.topTable > tr:nth-of-type(5) > td:nth-of-type(1) > span')
         stock_name = soup.select('strong.stockName')
         print(stock_quantity,stock_amplitude,stock_name)
@@ -83,14 +83,13 @@ def get_stock_amplitude(stock_list):
             try:
                 with connection.cursor() as cursor:
                     # 执行sql语句，插入记录
-                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source) VALUES (%s, %s, %s, %s,%s)'
-                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source))
+                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name) VALUES (%s, %s, %s, %s)'
+                    cursor.execute(sql, (present_date, quantities, amplitudes, names))
                     # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
                 connection.commit()
             finally:
                 connection.close()
     time.sleep(1)
 
-source = 'xueqiu'
-delete_current_data(config,source)
-get_stock_amplitude(stock_list,source)
+delete_current_data(config)
+get_stock_amplitude(stock_list)
