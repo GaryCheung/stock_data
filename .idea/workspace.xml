@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57e383db-b2cb-45c8-8b44-497fc8f0a099" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockstar_all.py" afterPath="$PROJECT_DIR$/stockstar_all.py" />
     </list>
     <ignored path="stock_data.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="stockstar_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stockstar_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="6014" column="42" selection-start-line="6014" selection-start-column="42" selection-end-line="6014" selection-end-column="42" />
+            <state relative-caret-position="46">
+              <caret line="6005" column="34" selection-start-line="6005" selection-start-column="34" selection-end-line="6005" selection-end-column="34" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -579,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464421975232</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1464424651746</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1464424651746</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -749,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stockstar_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="6014" column="42" selection-start-line="6014" selection-start-column="42" selection-end-line="6014" selection-end-column="42" />
+        <state relative-caret-position="46">
+          <caret line="6005" column="34" selection-start-line="6005" selection-start-column="34" selection-end-line="6005" selection-end-column="34" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
