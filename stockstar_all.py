@@ -6008,8 +6008,9 @@ urllen = len(stock_list_all)
 print(urllen)
 i = 0
 stock_list_slice = []
-while (i*200 <= urllen):
-    stock_list_slice = stock_list_all[i*200:i*200+199]
+step = 50
+while (i*step <= urllen):
+    stock_list_slice = stock_list_all[i*step:i*step+step-1]
     i = i+1
     print('NO.',i,'-------------------',stock_list_slice)
     get_stock_data(stock_list_all, source)
