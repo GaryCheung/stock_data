@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e383db-b2cb-45c8-8b44-497fc8f0a099" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stockstar_data_by_js.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stockstar_all_continue.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockstar_all.py" afterPath="$PROJECT_DIR$/stockstar_all.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" afterPath="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
@@ -29,8 +30,32 @@
       <file leaf-file-name="stockstar_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stockstar_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="6002" column="16" selection-start-line="6002" selection-start-column="16" selection-end-line="6002" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.555555">
+              <caret line="6018" column="40" selection-start-line="6018" selection-start-column="40" selection-end-line="6018" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockstar_all_continue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stockstar_all_continue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6019" column="9" selection-start-line="6019" selection-start-column="9" selection-end-line="6019" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockstar_all_PHPsameDB_continue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8863636">
+              <caret line="8991" column="3" selection-start-line="8991" selection-start-column="3" selection-end-line="8991" selection-end-column="3" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -50,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stockstar_all_PHPsameDB.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stockstar_all_PHPsameDB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.022727273">
-              <caret line="8955" column="1" selection-start-line="8955" selection-start-column="1" selection-end-line="8955" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8978" column="13" selection-start-line="8978" selection-start-column="13" selection-end-line="8978" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -134,6 +159,8 @@
         <option value="$PROJECT_DIR$/stockstar_data_by_js.py" />
         <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
         <option value="$PROJECT_DIR$/stockstar_all.py" />
+        <option value="$PROJECT_DIR$/stockstar_all_continue.py" />
+        <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py" />
       </list>
     </option>
   </component>
@@ -331,7 +358,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.stockstar_all_PHPsameDB">
+  <component name="RunManager" selected="Python.stockstar_all">
     <configuration default="false" name="eastmoney_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -548,8 +575,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stockstar_all_PHPsameDB" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stockstar_all" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stockstar_all" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stockstar_all_PHPsameDB" />
         <item index="2" class="java.lang.String" itemvalue="Python.stockstar_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.xueqiu_data_PHPsamedb_v1.0" />
         <item index="4" class="java.lang.String" itemvalue="Python.eastmoney_test" />
@@ -645,7 +672,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464415376283</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1464427627737</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1464427627737</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -685,13 +718,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get stock data from xueqiu" />
-    <MESSAGE value="update" />
     <MESSAGE value="add 威华股份" />
     <MESSAGE value="update headers" />
     <MESSAGE value="change db in order to use the same db with PHP" />
     <MESSAGE value="add all stock" />
     <MESSAGE value="get stock info from stockstar" />
-    <option name="LAST_COMMIT_MESSAGE" value="get stock info from stockstar" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,20 +947,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockstar_all.py">
+    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="6002" column="16" selection-start-line="6002" selection-start-column="16" selection-end-line="6002" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8978" column="13" selection-start-line="8978" selection-start-column="13" selection-end-line="8978" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
+    <entry file="file://$PROJECT_DIR$/stockstar_all_continue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.022727273">
-          <caret line="8955" column="1" selection-start-line="8955" selection-start-column="1" selection-end-line="8955" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6019" column="9" selection-start-line="6019" selection-start-column="9" selection-end-line="6019" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockstar_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.555555">
+          <caret line="6018" column="40" selection-start-line="6018" selection-start-column="40" selection-end-line="6018" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8863636">
+          <caret line="8991" column="3" selection-start-line="8991" selection-start-column="3" selection-end-line="8991" selection-end-column="3" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

@@ -8925,7 +8925,7 @@ def delete_current_data(config,source):
     print('-----------------------delete success!----------------','\n')
 
 
-def get_stock_data(stock_list, source):
+def get_stock_data(stock_list, source, present_location):
     url_base = 'http://stock.quote.stockstar.com/'
     for i in range(1,len(stock_list)+1):
         url = url_base + stock_list[i-1] + '.shtml'
@@ -8953,7 +8953,8 @@ def get_stock_data(stock_list, source):
                     amplitudes = str(0.00)
                     print(type(amplitudes))
             names = names.get_text().encode('latin-1').decode('gbk')
-            print('quantities',type(quantities),quantities,'-------------','amplitudes',type(amplitudes),amplitudes,'-----------------',type(names),names)
+            print('location',present_location,'quantities',type(quantities),quantities,'-------------','amplitudes',type(amplitudes),amplitudes,'-----------------',type(names),names)
+            present_location = present_location + 1
             connection = pymysql.connect(**config)
             try:
                 with connection.cursor() as cursor:
@@ -8970,14 +8971,20 @@ source = 'stockstar'
 delete_current_data(config,source)
 urllen = len(stock_list_all)
 print(urllen)
+present_location = 0
 i = 0
 stock_list_slice = []
 step = 50
+
+#point = 1000
+#print(stock_list_all[point])
+#stock_list_all = stock_list_all[point:]
+
 while (i*step <= urllen):
     stock_list_slice = stock_list_all[i*step:i*step+step]
     i = i+1
     print('NO.',i,'-------------------','len',len(stock_list_slice),stock_list_slice)
-    get_stock_data(stock_list_slice, source)
+    present_location = get_stock_data(stock_list_slice, source, present_location)
 
 #get_stock_data(stock_list_all,source)
 

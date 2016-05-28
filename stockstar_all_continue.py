@@ -6006,20 +6006,22 @@ def get_stock_data(stock_list, source, present_location):
 
 source = 'stockstar'
 
-delete_current_data(config,source)
-urllen = len(stock_list_all)
+# delete_current_data(config,source)
+
+point = 1000
+print(stock_list_all[point])
+stock_list_continue = stock_list_all[point:]
+
+urllen = len(stock_list_continue)
 print(urllen)
 present_location = 0
 i = 0
 stock_list_slice = []
 step = 50
 
-#point = 1000
-#print(stock_list_all[point])
-#stock_list_all = stock_list_all[point:]
 
 while (i*step <= urllen):
-    stock_list_slice = stock_list_all[i*step:i*step+step]
+    stock_list_slice = stock_list_continue[i*step:i*step+step]
     i = i+1
     print('NO.',i,'-------------------','len',len(stock_list_slice),stock_list_slice)
     present_location = get_stock_data(stock_list_slice, source, present_location)
