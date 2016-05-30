@@ -2973,6 +2973,11 @@ headers = {
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
 }
 
+headers_chrome = {
+    "Cookie":"s=2u40153rw1; xq_a_token=934f674c5167ef0a40bc92c387554e5b8d74a6f8; xq_r_token=ed5549c6fd48ab1fbe3f40b00a823b21dbd4f618; Hm_lvt_1db88642e346389874251b5a1eded6e3=1464574456; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1464574464; __utmt=1; __utma=1.166417680.1464574465.1464574465.1464574465.1; __utmb=1.1.10.1464574465; __utmc=1; __utmz=1.1464574465.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+    "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+}
+
 config = {
     'host':'127.0.0.1',
     'port':8889,
@@ -2998,12 +3003,12 @@ def delete_current_data(config,source):
         connection.close()
     print('-----------------------delete success!----------------','\n')
 
-def get_stock_amplitude(stock_list):
+def get_stock_amplitude(stock_list,source):
     url_base = 'https://xueqiu.com/S/'
     for i in range(1,len(stock_list)+1):
         url = url_base + stock_list[i-1]
         print('-------------------------',url)
-        web_data = requests.get(url,headers=headers)
+        web_data = requests.get(url,headers=headers_chrome)
         soup = BeautifulSoup(web_data.text,'lxml')
         #print(soup)
         stock_quantity = soup.select('table.topTable > tr:nth-of-type(2) > td:nth-of-type(4)')
