@@ -27,18 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="xueqiu_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xueqiu_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="stockstar_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stockstar_all.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,19 +43,7 @@
         <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8971" column="34" selection-start-line="8971" selection-start-column="34" selection-end-line="8971" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockstar_all_continue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stockstar_all_continue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6019" column="9" selection-start-line="6019" selection-start-column="9" selection-end-line="6019" selection-end-column="9" />
+              <caret line="8972" column="28" selection-start-line="8972" selection-start-column="28" selection-end-line="8972" selection-end-column="28" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -79,44 +55,8 @@
         <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8973" column="11" selection-start-line="8973" selection-start-column="11" selection-end-line="8973" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockstar_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stockstar_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="154" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="154" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockstar_data_by_js.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stockstar_data_by_js.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+              <caret line="8968" column="27" selection-start-line="8968" selection-start-column="27" selection-end-line="8968" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xueqiu_all_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xueqiu_all_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61077845">
-              <caret line="3009" column="58" selection-start-line="3009" selection-start-column="58" selection-end-line="3009" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +64,8 @@
       <file leaf-file-name="xueqiu_all_data_PHPsamedb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xueqiu_all_data_PHPsamedb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4444447">
-              <caret line="3005" column="41" selection-start-line="3005" selection-start-column="41" selection-end-line="3005" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2973" column="1" selection-start-line="2973" selection-start-column="1" selection-end-line="2973" selection-end-column="1" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -133,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xueqiu_data_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xueqiu_data_test.py">
+      <file leaf-file-name="xueqiu_all_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xueqiu_all_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0056818184">
+              <caret line="3013" column="9" selection-start-line="3013" selection-start-column="9" selection-end-line="3013" selection-end-column="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -171,8 +111,8 @@
         <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
         <option value="$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py" />
         <option value="$PROJECT_DIR$/xueqiu_data_test.py" />
-        <option value="$PROJECT_DIR$/xueqiu_all_data_PHPsamedb.py" />
         <option value="$PROJECT_DIR$/xueqiu_all_data.py" />
+        <option value="$PROJECT_DIR$/xueqiu_all_data_PHPsamedb.py" />
       </list>
     </option>
   </component>
@@ -232,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../open_account_number" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../current_rate" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="50" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="51" />
@@ -370,7 +310,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.xueqiu_all_data_PHPsamedb">
+  <component name="RunManager" selected="Python.xueqiu_all_data">
     <configuration default="false" name="stockstar_all_PHPsameDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,23 +324,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stock_data" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stockstar_all_PHPsameDB.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="xueqiu_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stock_data" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -422,23 +345,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="xueqiu_data_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stock_data" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu_data_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="xueqiu_all_data_PHPsamedb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -452,6 +358,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stock_data" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu_all_data_PHPsamedb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="xueqiu_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stock_data" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="xueqiu_data_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stock_data" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu_data_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -580,16 +520,16 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.stockstar_all_PHPsameDB" />
-      <item index="1" class="java.lang.String" itemvalue="Python.xueqiu_data" />
-      <item index="2" class="java.lang.String" itemvalue="Python.xueqiu_all_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python.xueqiu_data_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.xueqiu_all_data_PHPsamedb" />
+      <item index="1" class="java.lang.String" itemvalue="Python.xueqiu_all_data" />
+      <item index="2" class="java.lang.String" itemvalue="Python.xueqiu_all_data_PHPsamedb" />
+      <item index="3" class="java.lang.String" itemvalue="Python.xueqiu_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.xueqiu_data_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.xueqiu_all_data_PHPsamedb" />
-        <item index="1" class="java.lang.String" itemvalue="Python.xueqiu_data_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.xueqiu_all_data" />
+        <item index="0" class="java.lang.String" itemvalue="Python.xueqiu_all_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.xueqiu_all_data_PHPsamedb" />
+        <item index="2" class="java.lang.String" itemvalue="Python.xueqiu_data_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.stockstar_all_PHPsameDB" />
         <item index="4" class="java.lang.String" itemvalue="Python.xueqiu_data" />
       </list>
@@ -702,7 +642,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464433278582</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update cookie &amp; user-agent of xueqiu">
+      <created>1464574642735</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1464574642740</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +661,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33012047" sideWeight="0.50528544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4918957" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33012047" sideWeight="0.4947146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33012047" sideWeight="0.4947146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49753347" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -748,7 +694,8 @@
     <MESSAGE value="add all stock" />
     <MESSAGE value="get stock info from stockstar" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update cookie &amp; user-agent of xueqiu" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cookie &amp; user-agent of xueqiu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -760,7 +707,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,7 +737,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -820,7 +767,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -850,7 +797,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,7 +817,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,7 +827,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,21 +860,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockstar_data_by_js.py">
+    <entry file="file://$PROJECT_DIR$/stockstar_all_continue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding />
+        <state vertical-scroll-proportion="0.65909094">
+          <caret line="6019" column="9" selection-start-line="6019" selection-start-column="9" selection-end-line="6019" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stockstar_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.875">
           <caret line="66" column="154" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="154" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockstar_data_by_js.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23295455">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.48295453">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -941,30 +906,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockstar_all_continue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6019" column="9" selection-start-line="6019" selection-start-column="9" selection-end-line="6019" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB_continue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8973" column="11" selection-start-line="8973" selection-start-column="11" selection-end-line="8973" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <caret line="8968" column="27" selection-start-line="8968" selection-start-column="27" selection-end-line="8968" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xueqiu_data.py">
+    <entry file="file://$PROJECT_DIR$/xueqiu_data_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -974,17 +927,7 @@
     <entry file="file://$PROJECT_DIR$/stockstar_all_PHPsameDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8971" column="34" selection-start-line="8971" selection-start-column="34" selection-end-line="8971" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xueqiu_data_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+          <caret line="8972" column="28" selection-start-line="8972" selection-start-column="28" selection-end-line="8972" selection-end-column="28" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -993,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xueqiu_all_data_PHPsamedb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4444447">
-          <caret line="3005" column="41" selection-start-line="3005" selection-start-column="41" selection-end-line="3005" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2973" column="1" selection-start-line="2973" selection-start-column="1" selection-end-line="2973" selection-end-column="1" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1003,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xueqiu_all_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61077845">
-          <caret line="3009" column="58" selection-start-line="3009" selection-start-column="58" selection-end-line="3009" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0056818184">
+          <caret line="3013" column="9" selection-start-line="3013" selection-start-column="9" selection-end-line="3013" selection-end-column="9" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

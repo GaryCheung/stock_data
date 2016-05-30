@@ -52,6 +52,8 @@ config = {
     'charset':'utf8'
 }
 
+
+
 present_date = datetime.now().date()
 
 def delete_current_data(config):
