@@ -16,7 +16,7 @@ config = {
 }
 
 stock_list_all = [
-   '000543'
+   '000002'
 ]
 
 present_date = datetime.now().date()
@@ -49,7 +49,7 @@ def get_stock_data(stock_list, source, present_location):
         quantities_tmp = re.findall(r'(\"volume\"\:[0-9]+\.[0-9]+)',soup)
         quantities = re.findall(r'([0-9]+\.[0-9]+)',str(quantities_tmp))
         names_tmp = re.findall(r'(\"stockname\"\:[\D]+\"\,)',soup)
-        names = re.findall(r'([\u4e00-\u9fa5]+)',str(names_tmp))
+        names = re.findall(r'([\u4e00-\u9fa5]+[\s]*[\w]*)',str(names_tmp))
         price_high_tmp = re.findall(r'(\"high\"\:[0-9]+\.[0-9]+)',soup)
         price_high = re.findall(r'([0-9]+\.[0-9]+)',str(price_high_tmp))
         price_low_tmp = re.findall(r'(\"low\"\:[0-9]+\.[0-9]+)',soup)
@@ -62,7 +62,7 @@ def get_stock_data(stock_list, source, present_location):
         if amplitudes == []:
             amplitudes = str(0.00)
             print(type(amplitudes))
-        # print(quantities_tmp,'----------',amplitudes_tmp,'---------',names_tmp)
+        print(quantities_tmp,'----------',amplitudes_tmp,'---------',names_tmp)
         print(quantities,'-------',amplitudes,'-------',names,'-------',price_high,'-------',price_low,'-------',price_open,'-----',price_close)
         present_location = present_location + 1
         connection = pymysql.connect(**config)
