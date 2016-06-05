@@ -3016,9 +3016,17 @@ def get_stock_amplitude(stock_list,source):
         stock_quantity = soup.select('table.topTable > tr:nth-of-type(2) > td:nth-of-type(4)')
         stock_amplitude = soup.select('table.topTable > tr:nth-of-type(5) > td:nth-of-type(1) > span')
         stock_name = soup.select('strong.stockName')
-        print(stock_quantity,stock_amplitude,stock_name)
-        for quantity,amplitude,name in zip(stock_quantity,stock_amplitude,stock_name):
+        price_open = soup.select('table.topTable > tr:nth-of-type(1) > td:nth-of-type(1)')
+        price_close = soup.select('div.currentInfo > strong')
+        price_high = soup.select('table.topTable > tr:nth-of-type(1) > td:nth-of-type(2)')
+        price_low = soup.select('table.topTable > tr:nth-of-type(2) > td:nth-of-type(2)')
+        print(stock_quantity,stock_amplitude,stock_name, price_close, price_high, price_low, price_open)
+        for quantity,amplitude,name,pclose,phigh,plow,popen in zip(stock_quantity,stock_amplitude,stock_name,price_close, price_high, price_low, price_open):
             quantities = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',quantity.get_text())
+            pclose = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',pclose.get_text())
+            phigh = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',phigh.get_text())
+            plow = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',plow.get_text())
+            popen = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',popen.get_text())
             amplitudes = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',amplitude.get_text())
             names = name.get_text()
             if quantities == []:
@@ -3030,8 +3038,8 @@ def get_stock_amplitude(stock_list,source):
             try:
                 with connection.cursor() as cursor:
                     # 执行sql语句，插入记录
-                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name,source) VALUES (%s, %s, %s, %s,%s)'
-                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source))
+                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_close, price_high, price_low, price_open) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)'
+                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source, pclose, phigh, plow, popen))
                     # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
                 connection.commit()
             finally:
