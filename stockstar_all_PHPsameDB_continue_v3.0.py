@@ -8939,7 +8939,7 @@ def get_stock_data(stock_list, source, present_location):
         quantities_tmp = re.findall(r'(\"volume\"\:[0-9]+\.[0-9]+)',soup)
         quantities = re.findall(r'([0-9]+\.[0-9]+)',str(quantities_tmp))
         names_tmp = re.findall(r'(\"stockname\"\:[\D]+\"\,)',soup)
-        names = re.findall(r'([\u4e00-\u9fa5]+[\s]*[\w]*)',str(names_tmp))
+        names = re.findall(r'[\w\*\w\s]*[\u4e00-\u9fa5]+[\w\s]*',str(names_tmp))
         price_high_tmp = re.findall(r'(\"high\"\:[0-9]+\.[0-9]+)',soup)
         price_high = re.findall(r'([0-9]+\.[0-9]+)',str(price_high_tmp))
         price_low_tmp = re.findall(r'(\"low\"\:[0-9]+\.[0-9]+)',soup)
@@ -8985,7 +8985,7 @@ source = 'stockstar'
 
 # delete_current_data(config,source)
 
-point = 1145
+point = 1896+13+322
 print(stock_list_all[point])
 stock_list_continue = stock_list_all[point:]
 

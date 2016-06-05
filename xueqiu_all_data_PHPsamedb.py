@@ -3033,6 +3033,14 @@ def get_stock_amplitude(stock_list,source):
                 quantities = 0
             if amplitudes == []:
                 amplitudes = 0
+            if phigh == []:
+                phigh = 0
+            if plow == []:
+                plow = 0
+            if popen == []:
+                popen = 0
+            if pclose == []:
+                pclose = 0
             print(quantities,'-------------',amplitudes,'-----------------',names)
             connection = pymysql.connect(**config)
             try:
