@@ -2990,6 +2990,21 @@ config = {
 }
 
 present_date = datetime.now().date()
+week = present_date.weekday()
+if week == 0:
+    weekday = 'Monday'
+if week == 1:
+    weekday = 'Tuesday'
+if week == 2:
+    weekday = 'Wednsday'
+if week == 3:
+    weekday = 'Thursday'
+if week == 4:
+    weekday = 'Friday'
+if week == 5:
+    weekday = 'Saturday'
+if week == 6:
+    weekday = 'Sunday'
 
 def delete_current_data(config,source):
     connection = pymysql.connect(**config)
@@ -3045,8 +3060,8 @@ def get_stock_amplitude(stock_list,source):
             try:
                 with connection.cursor() as cursor:
                     # 执行sql语句，插入记录
-                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_close, price_high, price_low, price_open) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)'
-                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source, pclose, phigh, plow, popen))
+                    sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_close, price_high, price_low, price_open, weekday) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'
+                    cursor.execute(sql, (present_date, quantities, amplitudes, names, source, pclose, phigh, plow, popen, weekday))
                     # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
                 connection.commit()
             finally:

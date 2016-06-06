@@ -8909,6 +8909,21 @@ stock_list = [
 
 
 present_date = datetime.now().date()
+week = present_date.weekday()
+if week == 0:
+    weekday = 'Monday'
+if week == 1:
+    weekday = 'Tuesday'
+if week == 2:
+    weekday = 'Wednsday'
+if week == 3:
+    weekday = 'Thursday'
+if week == 4:
+    weekday = 'Friday'
+if week == 5:
+    weekday = 'Saturday'
+if week == 6:
+    weekday = 'Sunday'
 
 def delete_current_data(config,source):
     connection = pymysql.connect(**config)

@@ -6,6 +6,7 @@ import time
 import re
 import pycurl
 from io import BytesIO
+import datetime
 
 stock_list = [
     'SZ000543'    #皖能电力
@@ -52,9 +53,16 @@ config = {
     'charset':'utf8'
 }
 
-
+anyday = datetime.date(2016,6,5)
+print(anyday)
+week = anyday.weekday()
+print(week)
 
 present_date = datetime.now().date()
+#dateearlier = present_date + datetime.timedelta(days=-1)
+print(present_date,type(present_date))
+week = present_date.weekday()
+print(week)
 
 def delete_current_data(config):
     connection = pymysql.connect(**config)
