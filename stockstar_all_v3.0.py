@@ -8985,8 +8985,8 @@ def get_stock_data(stock_list, source, present_location):
         try:
             with connection.cursor() as cursor:
                 # 执行sql语句，插入记录
-                sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_high, price_low, price_open, price_close) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)'
-                cursor.execute(sql, (present_date, quantities, amplitudes, names, source, price_high, price_low, price_open, price_close))
+                sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_high, price_low, price_open, price_close, weekday) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'
+                cursor.execute(sql, (present_date, quantities, amplitudes, names, source, price_high, price_low, price_open, price_close,weekday))
                 # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
             connection.commit()
         finally:
