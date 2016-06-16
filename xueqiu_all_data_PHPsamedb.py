@@ -3037,7 +3037,12 @@ def get_stock_amplitude(stock_list,source):
         price_low = soup.select('table.topTable > tr:nth-of-type(2) > td:nth-of-type(2)')
         print(stock_quantity,stock_amplitude,stock_name, price_close, price_high, price_low, price_open)
         for quantity,amplitude,name,pclose,phigh,plow,popen in zip(stock_quantity,stock_amplitude,stock_name,price_close, price_high, price_low, price_open):
-            quantities = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',quantity.get_text())
+            if (re.findall(r'亿',quantity.get_text())):
+                quantities = re.findall(r'(\w*[0-9]+\.*[0-9]+)',quantity.get_text())
+                quantities = float(quantities[0])*100000000
+            elif (re.findall(r'万',quantity.get_text())):
+                quantities = re.findall(r'(\w*[0-9]+\.*[0-9]+)',quantity.get_text())
+                quantities = float(quantities[0])*10000
             pclose = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',pclose.get_text())
             phigh = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',phigh.get_text())
             plow = re.findall(r'(\w*[0-9]+\.*[0-9]+)\w*',plow.get_text())

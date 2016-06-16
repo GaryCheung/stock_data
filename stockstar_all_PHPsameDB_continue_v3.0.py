@@ -9000,7 +9000,7 @@ source = 'stockstar'
 
 # delete_current_data(config,source)
 
-point = 1111+1048+474
+point = 902+70+1313+618
 print(stock_list_all[point])
 stock_list_continue = stock_list_all[point:]
 

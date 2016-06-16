@@ -8986,8 +8986,8 @@ def get_stock_data(stock_list, source, present_location):
         try:
             with connection.cursor() as cursor:
                 # 执行sql语句，插入记录
-                sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_high, price_low, price_open, price_close) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)'
-                cursor.execute(sql, (present_date, quantities, amplitudes, names, source, price_high, price_low, price_open, price_close))
+                sql = 'INSERT INTO stock_data (date, quantity, amplitude, stock_name, source, price_high, price_low, price_open, price_close, weekday) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'
+                cursor.execute(sql, (present_date, quantities, amplitudes, names, source, price_high, price_low, price_open, price_close, weekday))
                 # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
             connection.commit()
         finally:
@@ -8999,7 +8999,7 @@ source = 'stockstar'
 
 # delete_current_data(config,source)
 
-point = 1896+13+322
+point = 666+34+167+545+1049+20+5+75+149+27+31
 print(stock_list_all[point])
 stock_list_continue = stock_list_all[point:]
 
