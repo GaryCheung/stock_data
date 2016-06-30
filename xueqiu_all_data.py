@@ -4,7 +4,6 @@ import pymysql
 from datetime import date,datetime
 import time
 import re
-import pycurl
 
 stock_list = [
 'SH600000',#浦发银行

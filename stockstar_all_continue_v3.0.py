@@ -8999,7 +8999,8 @@ source = 'stockstar'
 
 # delete_current_data(config,source)
 
-point = 666+34+167+545+1049+20+5+75+149+27+31
+point = 50+279+3+14+191+40+125+8+429+170+4+37+33+93+2+14+54+82+36+5+10+1+14+13+107+206+48+345+335+126+61
+
 print(stock_list_all[point])
 stock_list_continue = stock_list_all[point:]
 
