@@ -3021,6 +3021,7 @@ def delete_current_data(config,source):
     print('-----------------------delete success!----------------','\n')
 
 def get_stock_amplitude(stock_list,source):
+    point = 0
     url_base = 'https://xueqiu.com/S/'
     for i in range(1,len(stock_list)+1):
         url = url_base + stock_list[i-1]
@@ -3072,8 +3073,15 @@ def get_stock_amplitude(stock_list,source):
                 connection.commit()
             finally:
                 connection.close()
+        point = point+1
+        print('###################',point)
     time.sleep(1)
+    return point
 
 source = 'xueqiu'
-delete_current_data(config,source)
-get_stock_amplitude(stock_list,source)
+#delete_current_data(config,source)
+
+point = 21+24+4
+stock_list=stock_list[point:]
+
+flag = get_stock_amplitude(stock_list,source)
