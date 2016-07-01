@@ -3071,7 +3071,7 @@ def get_stock_amplitude(stock_list,source):
                 connection.commit()
             finally:
                 connection.close()
-    time.sleep(1)
+        time.sleep(1)
 
 source = 'xueqiu'
 delete_current_data(config,source)
