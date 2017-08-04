@@ -8981,8 +8981,8 @@ def get_stock_data(stock_list, source, present_location):
             price_close = '0.0'
         # print(quantities_tmp,'----------',amplitudes_tmp,'---------',names_tmp)
         print(quantities,'-------',amplitudes,'-------',names,'-------',price_high,'-------',price_low,'-------',price_open,'-----',price_close)
-        print('#####################location',present_location)
         present_location = present_location + 1
+        print('#####################location',present_location)
         connection = pymysql.connect(**config)
         try:
             with connection.cursor() as cursor:
@@ -9000,7 +9000,7 @@ source = 'stockstar'
 
 # delete_current_data(config,source)
 
-point = 38+61+47+10+243+94+135+155+113+32+567+59+4+13+12+6+14+14+8+55+45+6+76+13+16+26+43+3+84+27+79+20+29+2+24+12+11+91+75+156+70+64+64+83+46
+point = 624+174
 
 print(stock_list_all[point])
 stock_list_continue = stock_list_all[point:]
