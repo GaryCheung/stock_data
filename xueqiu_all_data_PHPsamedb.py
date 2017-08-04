@@ -6533,7 +6533,7 @@ def get_stock_amplitude(stock_list,source):
 source = 'xueqiu'
 delete_current_data(config_win,source)
 
-point = 0
-stock_list=stock_list[point:]
+point = 3042
+stock_list_tmp=stock_list_version20170803[point:]
 
-flag = get_stock_amplitude(stock_list_version20170803,source)
+flag = get_stock_amplitude(stock_list_tmp,source)
